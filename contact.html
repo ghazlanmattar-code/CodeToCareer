@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <meta name="description" content="Get in touch with CodeToCareer — ask us about AI and ICT careers, or how to get started as a tech student.">
+  <title>Contact Us — CodeToCareer</title>
+  <link rel="icon" type="image/png" href="Images/C-logo.png">
+  <link rel="apple-touch-icon" href="Images/C-logo.png">
+  <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+
+  <!-- HEADER / NAVIGATION -->
+
+  <header>
+    <nav>
+      <a href="index.html" class="nav-logo">Code<span>To</span>Career</a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox">
+      <label for="nav-toggle" class="nav-toggle-btn">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="roles.html">AI &amp; ICT Roles</a></li>
+        <li><a href="skills.html">Skills &amp; Roadmap</a></li>
+        <li><a href="gcc.html">GCC Opportunities</a></li>
+        <li><a href="contact.html" class="active">Contact Us</a></li>
+      </ul>
+      <div class="clear"></div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- PAGE HEADING -->
+
+    <section class="page-heading">
+      <div class="container">
+        <p class="section-label">Get In Touch</p>
+        <h1>We'd Love to Hear From You</h1>
+        <p>Have a question about AI &amp; ICT careers, want to suggest a role, or need advice on where to start as a tech student? Reach out below.</p>
+      </div>
+    </section>
+
+    <!-- CONTACT INFO AND THE FORM -->
+
+    <section class="section">
+      <div class="container">
+
+        <!-- Left: contact info -->
+        <div class="contact-grid-left">
+          <h2 class="contact-title">Contact Information</h2>
+          <p class="contact-desc">Reach out to us anytime during working hours – we're here to help and support you.</p>
+
+          <div class="contact-details-group">
+
+            <div class="contact-detail">
+              <div class="contact-detail-icon">📍</div>
+              <div class="contact-detail-text">
+                <strong>Address</strong>
+                <span>Building 1142 | TechHub Tower | Diplomatic Area | Manama, Bahrain</span>
+              </div>
+              <div class="clear"></div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-detail-icon">📧</div>
+              <div class="contact-detail-text">
+                <strong>Email</strong>
+                <span>info@codetocareer.bh</span>
+              </div>
+              <div class="clear"></div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-detail-icon">📞</div>
+              <div class="contact-detail-text">
+                <strong>Phone</strong>
+                <span>(+973) 1700 4220</span>
+              </div>
+              <div class="clear"></div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-detail-icon">🕐</div>
+              <div class="contact-detail-text">
+                <strong>Office Hours</strong>
+                <span>Sunday – Thursday, <time datetime="09:00">9:00 AM</time> – <time datetime="17:00">5:00 PM</time> AST</span>
+              </div>
+              <div class="clear"></div>
+            </div>
+
+          </div>
+
+          <!-- Quick links -->
+          <div class="quick-links-box">
+            <h3 class="quick-links-title">Quick Links</h3>
+            <ul class="quick-links-list">
+              <li><a href="roles.html">→ Browse AI &amp; ICT Roles</a></li>
+              <li><a href="skills.html">→ View Skills Roadmap</a></li>
+              <li><a href="gcc.html">→ GCC Opportunities</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Right: form -->
+        <div class="contact-grid-right">
+          <div class="form-wrap">
+            <h3>Send Us a Message</h3>
+
+            <form action="mailto:info@codetocareer.bh" enctype="text/plain" method="post">
+
+              <!-- Personal details -->
+              <fieldset>
+                <legend>PERSONAL DETAILS</legend>
+
+                <div class="form-row-left">
+                  <div class="form-group">
+                    <label for="first-name">First Name *</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="e.g. Fahad" required>
+                  </div>
+                </div>
+
+                <div class="form-row-right">
+                  <div class="form-group">
+                    <label for="last-name">Last Name *</label>
+                    <input type="text" id="last-name" name="last-name" placeholder="e.g. Alhajeri" required>
+                  </div>
+                </div>
+
+                <div class="clear"></div>
+
+                <div class="form-group">
+                  <label for="email">Email Address *</label>
+                  <input type="email" id="email" name="email" placeholder="yourname@example.com" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="phone">Phone Number *</label>
+                  <input type="tel" id="phone" name="phone" placeholder="(+973) XXXX XXXX" required>
+                </div>
+
+              </fieldset>
+
+              <!-- Student background -->
+              <fieldset>
+                <legend>YOUR STUDENT BACKGROUND</legend>
+
+                <div class="form-group">
+                  <label for="university">University / Institution</label>
+                  <input type="text" id="university" name="university" placeholder="e.g. British University of Bahrain">
+                </div>
+
+                <div class="form-row-left">
+                  <div class="form-group">
+                    <label for="degree">Degree Programme</label>
+                    <input type="text" id="degree" name="degree" placeholder="e.g. Software Engineering">
+                  </div>
+                </div>
+
+                <div class="form-row-right">
+                  <div class="form-group">
+                    <label for="year">Year of Study</label>
+                    <select id="year" name="year">
+                      <option value="" disabled selected>Select your year</option>
+                      <option value="year1">Year 1</option>
+                      <option value="year2">Year 2</option>
+                      <option value="year3">Year 3</option>
+                      <option value="year4">Year 4</option>
+                      <option value="graduate">Recent Graduate</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="clear"></div>
+
+                <div class="form-group">
+                  <label for="interest">Area of Interest *</label>
+                  <select id="interest" name="interest" required>
+                    <option value="" disabled selected>Select an AI or ICT career area</option>
+                    <option value="ml-engineer">Machine Learning Engineering</option>
+                    <option value="data-science">Data Science</option>
+                    <option value="nlp">Natural Language Processing</option>
+                    <option value="software-engineer">Software Engineering</option>
+                    <option value="software-developer">Software Development</option>
+                    <option value="cyber-analyst">Cyber Analysis</option>
+                    <option value="cybersecurity">Cybersecurity</option>
+                    <option value="it-support">IT Support / Analysis</option>
+                    <option value="other">Not sure yet</option>
+                  </select>
+                </div>
+
+              </fieldset>
+
+              <!-- Message -->
+              <fieldset>
+                <legend>YOUR MESSAGE</legend>
+                <div class="form-group">
+                  <label for="message">Message *</label>
+                  <textarea id="message" name="message" rows="5" placeholder="Tell us what you would like to know, or how we can help you as a student..." required></textarea>
+                </div>
+              </fieldset>
+
+              <input type="submit" name="send-message" value="Send Message" class="btn btn-submit">
+
+            </form>
+          </div>
+        </div>
+
+        <div class="clear"></div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+
+    <section class="section-alt">
+      <div class="container">
+        <h2 class="section-title faq-title">Frequently Asked Questions</h2>
+        <p class="section-desc faq-desc">Quick answers to the questions tech students ask us most often.</p>
+
+        <details>
+          <summary>Do I need a Master's degree to work in AI?</summary>
+          <div class="faq-answer">
+            No — while a Master's or PhD is advantageous for research roles, the majority of AI engineering and data science positions are accessible with a Bachelor's degree combined with relevant certifications and a strong portfolio of projects. Employers in the GCC increasingly value demonstrable skills over advanced degrees alone.
+          </div>
+        </details>
+
+        <details>
+          <summary>What programming language should I start with?</summary>
+          <div class="faq-answer">
+            Python is the undisputed first choice for AI and data science. It has the richest ecosystem of libraries and is used by the vast majority of AI practitioners globally. Once you are comfortable with Python, SQL is the next most important language to learn for working with data.
+          </div>
+        </details>
+
+        <details>
+          <summary>How long does it take to become job-ready in AI?</summary>
+          <div class="faq-answer">
+            With consistent effort of 10–15 hours per week, most students can reach an entry-level job-ready standard within 9–12 months alongside their degree. The key is building real projects and earning at least one recognised certification to complement your university qualification.
+          </div>
+        </details>
+
+        <details>
+          <summary>Are AI and ICT jobs available for graduates in the GCC?</summary>
+          <div class="faq-answer">
+            Yes — the GCC tech sector actively recruits international and local talent, particularly for specialised AI roles where graduate pipelines are still developing. UAE, Qatar, and Saudi Arabia all have visa pathways designed for skilled technology workers, and Bahrain's Tamkeen programme offers direct support for Bahraini graduates.
+          </div>
+        </details>
+
+        <details>
+          <summary>Can I get funding for AI certifications in Bahrain?</summary>
+          <div class="faq-answer">
+            Yes — Tamkeen in Bahrain offers significant subsidies for training and certification programmes for Bahraini nationals, including certifications from IBM, Microsoft, AWS, and Google. Support can cover up to 100% of training costs.
+          </div>
+        </details>
+
+        <details>
+          <summary>What is the difference between a Cyber Analyst and a Cybersecurity Specialist?</summary>
+          <div class="faq-answer">
+            A Cyber Analyst is typically an entry-to-mid level role focused on monitoring, detecting, and responding to threats — ideal for students entering the field. A Cybersecurity Specialist is a more senior position involving the design and architecture of security systems, penetration testing, and leading security strategy. The Analyst role is the natural stepping stone to becoming a Specialist.
+          </div>
+        </details>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+
+  <footer>
+    <div class="container">
+
+      <div class="footer-col-brand">
+        <a href="index.html" class="nav-logo">Code<span>To</span>Career</a>
+        <p class="footer-brand-text">Your complete guide to launching a career in AI and ICT — with a focus on the GCC region's booming tech sector.</p>
+      </div>
+
+      <div class="footer-col">
+        <h3>EXPLORE</h3>
+        <ul>
+          <li><a href="roles.html">AI &amp; ICT Roles</a></li>
+          <li><a href="skills.html">Skills &amp; Roadmap</a></li>
+          <li><a href="gcc.html">GCC Opportunities</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>TOP ROLES</h3>
+        <ul>
+          <li><a href="roles.html">ML Engineer</a></li>
+          <li><a href="roles.html">Data Scientist</a></li>
+          <li><a href="roles.html">Cybersecurity Specialist</a></li>
+          <li><a href="roles.html">NLP Engineer</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>CONTACT</h3>
+        <p><strong>Address:</strong><br>Building 1142 | TechHub Tower Manama, Bahrain</p>
+        <p><strong>Email:</strong><br>info@codetocareer.bh</p>
+        <p><strong>Phone:</strong><br>(+973) 1700 4220</p>
+      </div>
+
+      <div class="clear"></div>
+
+      <div class="footer-bottom">
+        <p>&copy; <time datetime="2026">2026</time> CodeToCareer — All rights reserved.</p>
+        <p class="right">Designed for aspiring AI and ICT professionals in the GCC.</p>
+        <div class="clear"></div>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
